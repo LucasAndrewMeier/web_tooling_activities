@@ -1,0 +1,28 @@
+
+{
+	"name": "Colin",
+	"age": 23,
+	"school": "Dunwoody School of Technology",
+	"homeTown": "Brooklyn Center",
+	"startTerm": "Fall 2014",
+	"endTerm": "Spring 2017",
+	"graduate": false,
+	"remainingCourses":3,
+	"courseInfo":[
+		{
+			"className": "CWEB1111",
+			"enrolledStudents": 5,
+			"startTime": "7:00 A.M."
+		},
+		{
+			"className": "CWEB2121",
+			"enrolledStudents": 12,
+			"startTime": "10:30 A.M."
+		},
+		{
+			"className": "CWEB1010",
+			"enrolledStudents": 19,
+			"startTime": "9:30 A.M."
+		}
+	]
+}

@@ -1,2 +1,12 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<h1>
+    <ul>
+        <li>student: {{name}}</li>
+        <li>student age: {{age}}</li>
+        <li>student school: {{school}}</li>
+        <li>{{#each courseInfo}}
+            <p>{{className}}</p>
+            <p>{{enrolledStudents}}</p>
+            {{/each}}
+        </li>
+    </ul>
+</h1>
