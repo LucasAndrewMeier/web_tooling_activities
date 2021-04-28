@@ -1,0 +1,27 @@
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.get('/api', (req,res) => {
+    const studentdata = [
+        {
+            "id": 1,
+            "name": "Riley",
+            "program": "CWEB",
+        },
+        {
+            "id": 2,
+            "name": "Sarah",
+            "program": "SENG",
+        }
+    ];
+    res.json(studentdata);
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})

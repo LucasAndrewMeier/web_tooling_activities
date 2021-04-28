@@ -5,8 +5,15 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
-   
-    res.render('displaycolin', data);
+
+    //ASSIGN THE DATA FROM THE EXTERNAL API TO MY thisObject BELOW
+
+
+   /*var thisObject = {
+       name: "Colin",
+       institution: "Dunwoody College of Technology"
+   }*/
+    res.render(data);
 });
 
 module.exports = router;
